@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4eaff;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    font-size: smaller;
+  }
+
+  .title-box {
+    padding: 3rem 0;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  .box {
+    padding: 1rem 0;
+  }
+
+  button {
+    background-color: #ffffff61;
+    border-color: #ffffff;
+    border-radius: 3px !important;
+    font-weight: bold;
+  }
+
+  .filter-btn {
+    scale: 1.2;
+  }
