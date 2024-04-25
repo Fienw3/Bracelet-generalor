@@ -49,3 +49,8 @@ body {
   .filter-btn {
     scale: 1.2;
   }
+
+  input {
+    background-color: #ffffff61;
+    border-color: #ffffff;
+  }

@@ -41,6 +41,7 @@ function filterStrings() {
         { text: 'Just So Funny', category: 'Taylor Swift', type: 'Lyrics' },
         { text: 'On A Wishing Star', category: 'Taylor Swift', type: 'Lyrics' },
         { text: 'State The Obvious', category: 'Taylor Swift', type: 'Lyrics' },
+        { text: 'Ur', category: 'Taylor Swift', type: 'Lyrics' },
 
         { text: 'Fearless', category: 'Fearless', type:"Album title" },
         { text: 'Fifteen', category: 'Fearless', type: 'Song Title' },
@@ -557,7 +558,7 @@ function filterStrings() {
         ) 
             
             {
-              resultsContainer.innerHTML += `<p>${string.text} (${string.type || 'Other'})</p>`;        }
+              resultsContainer.innerHTML += `<p><span>${string.text} </span>(${string.type} from the ${string.category} album)</p>`;        }
       }
     });
   }
